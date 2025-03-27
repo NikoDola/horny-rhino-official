@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Horny-Rhino",
+  title: "Horny-Rhino | Official Store",
   description: "Official Store",
 };
 
