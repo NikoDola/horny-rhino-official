@@ -1,0 +1,97 @@
+body{
+  
+}
+.heroSection{
+  position: relative;
+  width: 100%;
+  position: relative;
+  scroll-behavior: smooth; /* Normal scrolling */
+  overflow-x: hidden;
+}
+
+.text {
+  position: sticky; /* Keeps it centered on screen */
+  top: 20%;
+  font-family: serif;
+  color: black;
+  text-align: center;
+  font-size: 10vw;
+  z-index: -100;
+  font-family:Libre Bodoni, serif;
+}
+
+.testDiv{
+  height: 100vh;
+  background-color: var(--background);
+  z-index: 100;
+}
+.imageWrapper{
+  position: relative;
+}
+.mountain, .distant{
+  position:relative;
+  width: 100%;
+
+}
+
+.distant{
+
+  position: absolute;
+  z-index: -200;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1000px){
+  .heroSection{
+   
+  }
+
+  .mountain, .distant{
+   position: fixed;
+   bottom: 0;
+
+  
+  }
+
+  .text{
+
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+  }
+}
+
+
+
+.cloud2 {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  right: 0;
+
+  animation: animate2 60s infinite linear;
+}
+/* 
+@keyframes animate1 {j
+  0% {
+    left: 0;
+    opacity: 1;
+  }nj
+  50% {
+    opacity: 0;
+  }
+  100% {
+    left: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    right: -20%;
+  }
+  100% {
+    right: 100%;
+  }
+} */
