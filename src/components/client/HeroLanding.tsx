@@ -41,7 +41,7 @@ export default function ParallaxEffect() {
   return (
     <div className="heroSectionMain">
       <div className="heroSection">
-        <p className="text">{scrollNum > 0 ?  "Comming Soon": "Under Constraction"}</p>
+        <p className="text">{scrollNum > 0 ?  "Coming Soon": "Under Construction"}</p>
 
         <div className="imageWrapper">
           <Image
