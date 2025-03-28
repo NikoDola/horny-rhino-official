@@ -1,9 +1,10 @@
-import HeroLanding from "@/components/client/HeroLanding"
+import Search from "@/components/client/Search"
 
-export default function Home() {
-  return (
-    <div className="main">
-      <HeroLanding />
-    </div>
-  );
+export default function App(){
+  return(
+    <>
+    <Search />
+      <p>Hello</p>
+    </>
+  )
 }
