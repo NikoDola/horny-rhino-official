@@ -13,7 +13,7 @@ export default function Counting() {
 
   useEffect(() => {
     const getTimeLeft = () => {
-      const targetDate = new Date("2025-05-05T00:00:00")
+      const targetDate = new Date("2025-05-25T00:00:00")
       const now = new Date()
       const difference = targetDate.getTime() - now.getTime()
 
@@ -38,8 +38,8 @@ export default function Counting() {
 
   return (
     <div className="text-black absolute top-0 w-full mx-auto text-center flex flex-col items-center justify-center space-y-1 p-4">
-      <h2 className="text-xl">Opening In: 5/5/2025</h2>
-      <h2>Days Left</h2>
+      <h2 className="text-xl">Opening In: 5/25/2025</h2>
+      <h2 className="">Days Left</h2>
       <div className="flex space-x-4 text-lg">
         <span className="text-5xl">{timeLeft.days}d</span>
         <span className="text-5xl">{timeLeft.hours}h</span>
