@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+
+
 body{
   
 }
@@ -7,6 +10,7 @@ body{
   position: relative;
   scroll-behavior: smooth; /* Normal scrolling */
   overflow-x: hidden;
+  scroll-behavior: none;
 }
 
 .text {
@@ -43,7 +47,7 @@ body{
 
 @media screen and (max-width: 1000px){
   .heroSection{
-   
+   overflow: hidden;
   }
 
   .mountain, .distant{
@@ -55,7 +59,7 @@ body{
 
   .text{
 
-    margin-top: 5rem;
+    margin-top: 50%;
     text-align: center;
     font-size: 2.8rem;
     line-height: 2.8rem;

@@ -42,7 +42,8 @@ export default function ParallaxEffect() {
     <div className="heroSectionMain">
       <div className="heroSection">
         <p className="text">{scrollNum > 0 ?  "Coming Soon": "Under Construction"}</p>
-
+   
+            
         <div className="imageWrapper">
           <Image
             className="mountain"
